@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+  
+    background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+  
+    min-height: 100vh;
+  }
+  
+  .page {
+    width: 1000px;
+    margin: 0 auto 0px;
+    padding-top: 65px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 68px ;
+    justify-content: space-between;
+      }
+  
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 153px;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  ul li a {
+      opacity: 0.5;
+  }
+  
+  ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  h1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+  }
+  
+  h1 {
+    font-size: 49px;
+    line-height: 56px;
+    color: #1f1534;
+  
+    font-weight: normal;
+  
+    width: 490px;
+  }
+  
+  h1 span {
+    color: #89c5cc;
+    font-weight: bold;
+  }
+  main p {
+    
+    color: #7d7987;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 40px 153px 186px 300px;
+    width: 700;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400px;
+    
+  }
+  
+  button {
+    color: white;
+      text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  
+    background: #69B99D;
+    border: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
+  
+    border-radius: 4px;
+  
+    cursor: pointer;
+    margin-top: 40px;
+    
+  }
+  
+  button:hover {
+      background: #4EA788;
+  }
+  
+  footer {
+    font-size: 14px;
+    line-height: 28px;
+  
+    text-align: center;
+  
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    
+
+  }
+  
+  footer a {  
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  footer a:hover{
+    color:  #4EA788;
+    
+
+
+  }
+  
+  #balls {
+      bottom: 0;
+      right: 0;
+      position: fixed;
+  }
+  
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ nav ul{
+     justify-content: space-between;
+     gap: 48px;
+     font-size: 18px;
+     line-height: 23px;
+     font-family: 'Mulish'
+     cursor: pointer;
+     }
+     
+  
+
+    
+
+
